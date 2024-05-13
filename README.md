@@ -25,14 +25,11 @@ Welcome to my personal portfolio website! This website serves as a showcase of m
 ## Deployment
 This website is deployed on [Vercel](https://vercel.com).
 
-## Customization
-You can customize this website by adding your own projects, modifying the styling, or extending its functionality as needed.
-
 ## Credits
 - Design inspiration from [Example Design](https://example.com)
 - Icons from [FontAwesome](https://fontawesome.com)
 
 ## Contact Information
 - Email: agboolaemmanuel524@gmail.com
-- LinkedIn: [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)
+- LinkedIn: https://www.linkedin.com/in/agboola-emmanuel-ab0196224/
 - Twitter: https://twitter.com/Tom_Agboola
