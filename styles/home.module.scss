@@ -10,10 +10,34 @@
         background-color: var(--color-black);
         padding: 20px 60px;
         height: 120px;
-        position: fixed;
+        // position: fixed;
 
         @include respond (tab-land) {
-            height: 60px;
+            height: 80px;
+            padding: 16px;
+        }
+    }
+    & .heroContainer {
+        padding: 60px;
+        & .heroContent {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            & .workFlex {
+                padding: 30px;
+                display: flex;
+                gap: 80px;
+                @include respond (tab-land) {
+                    flex-direction: column;
+                }
+                & .workCard {
+                    height: 450px;
+                    width: 18%;
+                    background-color: rgb(238, 238, 238);
+                    padding: 15px;
+                    border-radius: 5px;
+                }
+            }
         }
     }
   }
