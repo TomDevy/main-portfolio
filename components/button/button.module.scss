@@ -8,7 +8,7 @@
     height: fit-content;
     cursor: pointer;
     color: var(--color-text-light);
-    font-size: 1rem;
+    font-size: 2rem;
     border: 1px solid currentColor;
     font-weight: 600;
     border-radius: 5px;
@@ -33,7 +33,7 @@
     }
 
     @include respond(tab-port) {
-        font-size: 1.8rem;
+        font-size: 1.3rem;
     }
 
     &::first-letter {
@@ -60,6 +60,7 @@
         &:hover {
             color: var(--color-secondary);
             background-color: var(--color-primary);
+            border: 1px solid #efefeb;
         }
     }
 
