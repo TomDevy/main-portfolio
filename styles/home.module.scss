@@ -19,6 +19,9 @@
     }
     & .heroContainer {
         padding: 60px;
+        @include respond (tab-land) {
+            padding: 30px;
+        }
         & .heroContent {
             display: flex;
             flex-direction: column;
@@ -29,6 +32,8 @@
                 gap: 80px;
                 @include respond (tab-land) {
                     flex-direction: column;
+                    padding: 0px;
+                    gap: 20px;
                 }
                 & .workCard {
                     height: 450px;
@@ -36,6 +41,10 @@
                     background-color: rgb(238, 238, 238);
                     padding: 15px;
                     border-radius: 5px;
+                    @include respond (tab-land) {
+                        width: 100%;
+                        height: 350px;
+                    }
                 }
             }
         }
