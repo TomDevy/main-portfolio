@@ -13,15 +13,16 @@ const Landing = () => {
           <div className={styles.workFlex}>
             <div className={styles.workCard}>
               <h3>Experience</h3>
+              <p></p>
             </div>
             <div className={styles.workCard}>
-              <h3>Experience</h3>
+              <h3>Professionalism</h3>
             </div>
             <div className={styles.workCard}>
-              <h3>Experience</h3>
+              <h3>Friendliness</h3>
             </div>
             <div className={styles.workCard}>
-              <h3>Experience</h3>
+              <h3>Reliabilily</h3>
             </div>
           </div>
         </div>
