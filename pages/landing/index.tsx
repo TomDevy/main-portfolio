@@ -29,6 +29,7 @@ const Landing = () => {
         </div>
       </div>
       <Review />
+      <div className={styles.footer}></div>
     </div>
   );
 };
