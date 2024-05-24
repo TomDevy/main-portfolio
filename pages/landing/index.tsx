@@ -1,6 +1,7 @@
 import Link from "next/link";
 import styles from "../../styles/home.module.scss";
 import { BtnSecondary } from "../../components/button";
+import Review from "../reviews";
 const Landing = () => {
   return (
     <div className={styles.container}>
@@ -27,6 +28,7 @@ const Landing = () => {
           </div>
         </div>
       </div>
+      <Review />
     </div>
   );
 };

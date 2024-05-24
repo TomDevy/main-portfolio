@@ -20,7 +20,7 @@
     & .heroContainer {
         padding: 60px;
         @include respond (tab-land) {
-            padding: 30px;
+            padding: 16px;
         }
         & .heroContent {
             display: flex;
