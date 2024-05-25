@@ -56,8 +56,13 @@
     height: 400px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    padding: 40px;
+    align-items: center;
+    padding: 60px;
     border-radius: 0px 0px 12px 12px;
+
+    & h1 {
+        color: var(--color-text-light);
+        font-weight: 500;
+    }
   }
 }

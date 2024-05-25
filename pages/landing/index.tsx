@@ -29,7 +29,9 @@ const Landing = () => {
         </div>
       </div>
       <Review />
-      <div className={styles.footer}></div>
+      <div className={styles.footer}>
+        <h1>Let's create epic stuff together</h1>
+      </div>
     </div>
   );
 };
